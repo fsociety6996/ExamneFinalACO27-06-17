@@ -1,0 +1,7 @@
+<form method="post" action="guardarNota" >
+	<label for="nombre">nombre:</label>
+	<input type="text" id="nombre" name="nota[nombre]" value="<%= nota.nombre %>">
+	<label for="notaFinal">notaFinal:</label>
+	<input type="text" id="notaFinal" name="nota[notaFinal]" value="<%= nota.notaFinal %>">
+	<input type="submit" name="envio" value="Registrar Nota">
+</form>
